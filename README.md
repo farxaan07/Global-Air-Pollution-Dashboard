@@ -11,17 +11,11 @@ This  contains a Streamlit-based interactive dashboard for analyzing global air 
 
 ##  Dashboard Features
 
-| Type | Description |
-|------|-------------|
-|  Interactive Visualizations | 4+ visual types (e.g., line chart, bar chart, scatter plot, map) |
-|  Summary Metrics | Key figures shown at the top of the dashboard |
-|  Advanced Features | 
-- **Connected Visualisations** (Charts respond to filters)  
-- **Cascading Filters** (Country → City, etc.) |
-|  Data Table | Interactive table with filtering/sorting |
+| Feature Type             | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| Interactive Visualizations | Includes 4+ visual types such as line chart, bar chart, scatter plot, and map |
+| Summary Metrics           | Displays key figures at the top of the dashboard                          |
+| Advanced Features         | - **Connected Visualisations** (Charts respond to filters)  <br> - **Cascading Filters** (Country → City, etc.) |
+| Data Table                | Interactive table with filtering and sorting options                      |
 
-# 2. Install requirements
-pip install streamlit pandas matplotlib seaborn plotly
 
-# 3. Run the app
-streamlit run app/code.py
